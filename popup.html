@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Converter - Duck Cloud</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>File Converter</h1>
+    <input type="file" id="fileInput" accept=".docx,.pdf,.jpg,.jpeg,.png" />
+    <select id="conversionType">
+      <option value="wordtopdf">Word to PDF</option>
+      <option value="pdftoword">PDF to Word</option>
+      <option value="imagetopdf">Image to PDF</option>
+      <option value="imagetoword">Image to Word</option>
+    </select>
+    <button id="convertBtn">Convert</button>
+    <p id="status"></p>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
