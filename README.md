@@ -14,7 +14,7 @@ This JavaScript handles file upload, conversion type selection, and communicates
 ###### 4. background.js (Background service worker)
 The background script will handle events, such as downloads, that require Chrome extension background execution.
 
-##### 5. styles.css (Basic styling)
+###### 5. styles.css (Basic styling)
 This ensures the popup UI looks clean and modern.
 
-##### 6. Backend Service (Go & Check this repo out: https://github.com/IsaacTalb/CE-convertor-api)
+###### 6. Backend Service (Go & Check this repo out: https://github.com/IsaacTalb/CE-convertor-api)
